@@ -12,7 +12,7 @@ year.innerHTML = getNewYear().getFullYear();
 const app = document.querySelector(".countdown-timer");
 const message = document.querySelector(".message");
 const heading = document.querySelector("h1");
-
+// rendering data 
 const render = (time) => {
   app.innerHTML = `
         <div class="count-down">
